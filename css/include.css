@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+/*헤더*/
+#header{
+    height:43px;
+    line-height:43px;
+    text-align: center;
+    position: relative;
+    margin:20px 50px;
+}
+
+#header h1{
+    position: absolute;
+    height: 43px;
+    width: 110px;
+    background:url(../images/sp_com.png)no-repeat -300px -5px;
+    text-indent:-9999px;
+}
+
+.gnb{
+    display: inline-block;
+}
+.gnb li{
+    float: left;
+    margin:0 20px;
+}
+.gnb li a{}
+
+.util{
+    position: absolute;
+    right:0;
+    top:0;
+}
+.util li{
+    float: left;
+    font-size:12px;
+    margin:0 5px;
+}
+.util li a{}
+
+/*푸터*/
+#footer{
+    background:#4C5459;
+    color:#fff;
+    font-size:13px;
+}
+
+.fTop{
+    background:#383F43;
+    height:40px;
+    line-height:40px;
+    padding:10px 0;
+}
+
+.fMenu{
+    float:left;
+}
+.fMenu li{
+    float:left;
+}
+.fMenu li::after{
+    content:"";
+    display:inline-block;
+    width:1px;
+    height:8px;
+    background:#fff;
+    margin:0 5px;
+}
+.fMenu li:last-child::after{
+    display:none;
+}
+.fMenu li a{color:#fff;}
+.linNone:first-child::before{display: none;}
+
+.csFamily{float:right;}
+.csFamily>div{
+    padding:0 15px;
+    float:left;
+    height:40px;
+}
+.csBox a{color: #fff;}
+.csBox{
+    background:#2A3033;
+}
+.csBox span{
+    vertical-align:middle;
+    font-weight:bold;
+}
+.csBox .csNum{
+    font-size:22px;
+    margin-left:10px;
+    font-weight:normal;
+}
+
+.familySite{
+    width:150px;
+    background:#fff url(../images/arrow.png) no-repeat 95% center;
+    color:#333;
+    margin-left:10px;
+}
+
+.fBottom{
+    text-align:center;
+    padding:50px 0;
+}
+.fLogo{
+    width:130px;
+    height:50px;
+    margin:0 auto;
+    margin-bottom:30px;
+    background:url(../images/sp_com.png) no-repeat -150px 0;
+    text-indent:-9999px;
+}
+
+.fInfo{
+    display:inline-block;
+    margin-bottom:10px;
+}
+.fInfo li{
+    float:left;
+}
+
+.fBottom p{}
